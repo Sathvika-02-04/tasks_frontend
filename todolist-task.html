@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todo List</title>
+  <link rel="stylesheet" href="./todolist-task.css" />
+</head>
+
+<body>
+    <div class="header">
+    <h2>To do list </h2>
+   <input type="text" class="form-control" placeholder="Enter your task" id="addtaskinput" />
+    <input type="hidden" id="saveindex">
+              
+    <button type="button"   id="addtaskbtn">Add Task</button>
+    <button type="button" id="savetaskbtn" style="display: none;">Save Task</button>
+    <button type="button" id="importbtn" onclick="importing()"> Import </button></div>
+    <div class="placing"> </div>
+    <div class="to-do-output">
+    <table class="'list_output" id="addedtasklist">   
+    </table>
+    </div>
+<script src="./todolist-task.js"></script>
+</body>
+
+</html>

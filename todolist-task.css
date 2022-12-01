@@ -1,0 +1,107 @@
+.header{
+    margin: auto;
+    width:60%;
+    background-color:darksalmon;
+    padding: 10px 10px;
+    color:rgb(202, 73, 14);
+    text-align: center;
+    height:130px;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style:normal;
+    border-radius: 6px;
+}
+
+.placing{
+    background:white;
+    border-bottom:5px;
+    border-top:5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+input {
+    margin-left:20%;
+    border: 10px grey;
+    border-radius: 3px;
+    width: 40%;
+    padding: 10px;
+    float: left;
+    font-size: 20px;
+    height:30px;
+    background-color: antiquewhite;
+    font-family:'fantasy';  }
+
+#addtaskbtn,#savetaskbtn,#importbtn{
+    
+        width: 15%;
+        height: 50px;
+        background: #d9d9d9;
+        color: #555;
+        float: left;
+        text-align: center;
+        font-size: 16px;
+        cursor:pointer;
+        transition: 0.3s;
+        border-radius: 2px;
+        border:none;
+        margin:auto;
+        font-weight: bolder;
+    }
+#addtaskbtn:hover,#savetaskbtn:hover,#importbtn:hover{
+    background-color: #bbb;
+
+
+}
+
+.to-do-output{
+        
+    margin:auto;
+    width:50%;
+    text-align: center;
+    background:#b2c2be;
+    font-size: larger;
+    padding-left: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color:antiquewhite;    
+
+}
+
+#rowval {
+    background: no-repeat;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-size: large;
+    transition: 0.2s;
+    border-bottom: #555 10px;
+    font-family:'fantasy';  
+    width:80%;
+    color:antiquewhite;
+    margin-left: 100px;
+    border-bottom: 5px;
+}
+ 
+#edit_btn{
+    float:right;
+    background-color: #5d7196;
+    float:right;
+    color:black;
+    font-weight: bolder;
+    padding: 8px 10px 8px 8px;
+    border-radius: 3px;
+    border: none;
+    margin:auto;
+}
+#del_btn{
+    float:right;
+    background-color: #5d7196;
+    float:right;
+    color:black;
+    font-weight:bolder;
+    padding: 8px 10px 8px 8px;
+    border-radius: 3px;
+    border:none;
+    margin:auto;
+}
+
